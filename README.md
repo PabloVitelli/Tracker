@@ -1,6 +1,6 @@
 # Tracker
 
-Pasos para ejecutar el proyecto con Docker:
+a) Pasos para ejecutar el proyecto con Docker:
 
 1) Bajar el repositorio mediante: GIT CLONE  https://github.com/PabloVitelli/Tracker
 2) El video a analizar se encuentra dentro de la carpeta "Proyecto" con el nombre "input.mkv"
@@ -8,7 +8,7 @@ Pasos para ejecutar el proyecto con Docker:
 4) Se ejecutara la imagen Docker dentro de la carpeta "Proyecto": docker run -v "$(pwd)/:/app" proyecto
 5) El software generara un video en la carpeta "Proyecto" con el nombre de "tracking.mp4"
 
-Pasos para ejecutar el proyecto en un enviroment Anaconda:
+b) Pasos para ejecutar el proyecto en un enviroment Anaconda:
 1) Bajar el repositorio mediante: GIT CLONE  https://github.com/PabloVitelli/Tracker
 2) Crear un enviroment con Anaconda: conda create --name Envi Python=3.8
 3) Instalar las dependencias de "requirement.txt"
